@@ -343,7 +343,7 @@ MonoBehaviour:
   energy: 0
   AttackPoint: 0
   bodyPrefab: {fileID: 7526888423267112248, guid: 29ce8b60ab4924b4aa2a04938a3ac50a, type: 3}
-  moveInterval: 0.5
+  moveInterval: 1
 --- !u!4 &1213437263
 Transform:
   m_ObjectHideFlags: 0
@@ -361,7 +361,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1213437264
 SpriteRenderer:
-  serializedVersion: 3
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -418,7 +418,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
-  m_BlendShapeWeights: []
 --- !u!1 &1246143873
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +729,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
